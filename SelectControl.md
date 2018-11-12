@@ -52,6 +52,15 @@ registerBlockType( ...
         ...
         
     )
+
+   },
+   
+   save( props ){
+
+	return ( <div>SelectControl value: { props.attributes.selectControlValue }</div> );
+
+   }
+	
     
 ```
 
